@@ -1,0 +1,50 @@
+.searchUser{
+  position: relative;
+  height: 90vh;
+}
+.searchUser_form{
+    display:flex;
+    padding:0px 20px 0px 10px;
+    background-color: #EFEFEF;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray ;
+    position: fixed;
+    top: 45px;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .searchUser_form > form  {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 12px 20px 4px 5px;
+    border-radius: 30px;
+    background-color: #fff;
+  }
+  .searchUser_form> form > input{
+   
+    border-radius: 30px;
+    padding: 0px 13px 0px 13px;
+    border:none;
+    outline-width: 0;
+  
+  }
+  .searchUserIcon{ 
+      z-index: 20;     
+    padding: 7px;
+  }
+  .searchUser_suggestions{
+    position: absolute;
+    padding: 10px;
+    top: 50px;
+  }
+
+  
+  
+  

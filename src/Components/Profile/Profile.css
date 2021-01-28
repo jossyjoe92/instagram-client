@@ -1,0 +1,144 @@
+.profile, .business_profile{
+    max-width: 935px;
+    margin: 0 auto;
+  }
+  .profile_top, .business_profile_top{
+    display:flex;
+    justify-content: center;
+    margin: 18px auto;
+    border-bottom: 1px solid grey;
+  }
+  .profile_image, .business_profile_image{
+    margin: 0px 30px 0 10px;
+  }
+  .profile_image img{
+    width:140px;
+    height:140px;
+    border-radius:70px;
+    
+  }
+  .business_profile_image img{
+    width:300px;
+    height:300px;
+    
+  }
+  .profile_details{
+    margin: 0px;
+  }
+  .profile_details_name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profile_details_name h3{
+    margin-right:50px;
+  }
+  .profile_details_stats{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  .profile_details_stats h4{
+    margin-right: 10px;
+   
+  }
+  .business_button,.follow_button{
+      margin-top: 5px;
+  }
+
+ 
+ 
+  #input[type="file"] {
+	display: none;
+}
+.label{
+  width: 100%;
+  margin-top: -2.5rem;
+  margin-bottom: 2rem;
+ 
+  display: flex;
+  justify-content: center;
+  
+  
+}
+  .image-upload{
+    margin: auto;
+    margin-right: .5rem !important;
+    width: 40px;
+      height: 40px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color:  #0a8d48 !important;
+    text-align: center;
+    
+    display: flex;
+    
+    z-index: 1;
+  }
+  .addphoto_icon{
+    margin: 6px auto;
+  }
+  .loader{
+    margin-top: -6.5rem;
+    margin-left: 3rem;
+    margin-bottom: 3.5rem;
+  }
+
+  @media only screen and (max-width: 640px){
+    .profile, .business_profile{
+        width: 100vw !important;
+        margin: 0 auto;
+      }
+    
+      .profile_details_stats h4{
+        font-size: 14px;
+        margin-right: 5px;
+      }
+      .profile_details_name h3{
+       margin-right: 10px !important;
+      }
+      .businessProfile_button button{
+        padding:2px 1px 2px 1px ;
+        font-size: 12px;
+      }
+   button{
+    text-transform: none !important;
+ }
+ .profile_image, .business_profile_image{
+    margin: 0px 10px 0 0px;
+  }
+  .profile_image img{
+    width:120px;
+    height:120px;
+    border-radius:60px;
+    
+  }
+  .business_profile_image img{
+    width:120px;
+    height:120px;
+    
+  }
+  .image-upload{
+    margin: auto;
+    margin-right: .5rem !important;
+    width: 30px;
+      height: 30px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color:  #0a8d48 !important;
+    text-align: center;
+    
+    display: flex;
+    
+    z-index: 1;
+  }
+  .loader{
+    margin-top: -5.5rem;
+    margin-left: 2.5rem;
+    margin-bottom: 3.0rem;
+  }
+}
